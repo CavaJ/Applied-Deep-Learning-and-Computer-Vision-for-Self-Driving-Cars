@@ -1,3 +1,7 @@
+# ignore .idea and .virtual_documents
+.idea/
+.virtual_documents/
+
 # Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
 
