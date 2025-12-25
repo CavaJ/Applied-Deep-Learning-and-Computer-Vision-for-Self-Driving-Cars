@@ -211,6 +211,7 @@ dependencies:
   - zstd=1.5.6=h8880b57_0
   - pip:
       - docstring-to-markdown==0.15
+      - imutils==0.5.2
       - jupyter-lsp==1.5.1
       - jupyterlab-lsp==3.10.2
       - opencv-python==4.10.0.84
