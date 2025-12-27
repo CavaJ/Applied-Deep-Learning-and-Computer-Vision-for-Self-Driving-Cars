@@ -59,9 +59,9 @@ dependencies:
   - graphviz=2.50.0=hdb8b0d4_0
   - grpcio=1.42.0=py37hc60d5dd_0
   - gts=0.7.6=h63ab5a1_3
-  - h5py=3.7.0=py37h3de5c98_0
+  - h5py=2.9.0=py37h5e291fa_0
   - harfbuzz=4.3.0=hb646838_1
-  - hdf5=1.10.6=h1756f20_1
+  - hdf5=1.10.4=h7ebc959_0
   - icc_rt=2022.1.0=h6049295_2
   - icu=58.2=ha925a31_3
   - idna=3.4=py37haa95532_0
@@ -153,6 +153,7 @@ dependencies:
   - pyopenssl=23.0.0=py37haa95532_0
   - pyparsing=3.0.4=pyhd3eb1b0_0
   - pyqt=5.9.2=py37hd77b12b_6
+  - pyreadline=2.1=py37_1
   - pyrsistent=0.18.0=py37h196d8e1_0
   - pysocks=1.7.1=py37_1
   - python=3.7.16=h6244533_0
@@ -214,7 +215,8 @@ dependencies:
   - zlib=1.2.13=h8cc25b3_1
   - zstd=1.5.6=h8880b57_0
   - pip:
-      - dnspython==2.3.0
+      - bidict==0.22.1
+      - dnspython==1.16.0
       - docstring-to-markdown==0.15
       - eventlet==0.25.0
       - flask-socketio==4.1.0
@@ -230,6 +232,7 @@ dependencies:
       - opencv-python==4.10.0.84
       - pipdeptree==2.9.6
       - pluggy==1.2.0
+      - python-dotenv==0.14.0
       - python-engineio==4.12.3
       - python-lsp-jsonrpc==1.0.0
       - python-lsp-server==1.7.4
